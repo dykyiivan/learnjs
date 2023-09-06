@@ -7,6 +7,20 @@
 </head>
 <body>
 	<h1>Hello, world!</h1>
-	<button onclick="alert('Button was clicked');">Click</button>
+	<button class="button">random buttons</button>
+	<button class="button">random buttons</button>
+	<button class="button">random buttons</button>
+	<button class="button">random buttons</button>
+	<button class="button">random buttons</button>
+	<button class="button">random buttons</button>
+	<button class="button">random buttons</button>
+
+	<script>
+		document.querySelectorAll('.button').forEach((element) => {
+			element.addEventListener('click', () => {
+				alert('Some message');
+			});
+		});
+	</script>
 </body>
 </html>
