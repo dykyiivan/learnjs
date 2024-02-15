@@ -1,1 +1,1 @@
-# learnjs
+# JavaScript (Basic)
